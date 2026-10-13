@@ -1,0 +1,39 @@
+# Implementacoes reservadas do professor
+/legacy-python/
+/java-reference/
+
+# Documentacao e testes privados
+/docs/professor/
+/tests/private/
+
+# Scripts do professor (sobem as APIs de referencia)
+/scripts/
+
+# Arquivos locais
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Java
+target/
+.gradle/
+build/
+*.class
+
+# Frontend
+node_modules/
+dist/
+
+# Configuracoes locais
+/server/data/
+
+# Ferramentas e logs locais
+/.tools/
+/.run/
+*.log
+.DS_Store
