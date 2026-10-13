@@ -112,17 +112,7 @@ Perguntas que vocês devem responder para o seu serviço:
 
 ## O que vocês vão implementar
 
-Cada serviço tem quatro operações básicas sobre os seus registros (listar,
-criar, atualizar e excluir) e **um endpoint consolidado**.
-
-Um **endpoint consolidado** não devolve registros: ele devolve um **resultado
-calculado pelo servidor** a partir dos registros que ele guarda (uma contagem, um
-percentual...). É o tipo de informação que um cliente pediria pronta em vez de
-baixar a lista inteira e contar sozinho. Na dashboard do painel, esse resultado
-aparece como o grande número do seu serviço. Descubram qual é o cálculo
-observando o número e a lista de registros.
-
-Reproduzam tudo usando o que vimos em aula:
+Reproduzam tudo o que observaram usando o que vimos em aula:
 
 - uma classe para o objeto (atributos privados, construtor, getters e setters),
   como a `User` do exercício de usuários;
